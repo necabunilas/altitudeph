@@ -1,0 +1,103 @@
+/* HTML */
+body{
+  text-align: center;
+}
+
+h2{
+  font-weight: lighter;
+}
+
+/* HOME */
+#home{
+  background: url("../img/home-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 56% center;
+  padding: 3% 3%;
+}
+
+.home-title{
+  padding: 10% 15% 20%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 2.5rem;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+
+/* STORY */
+#story {
+  background-color: #442727;
+  color: white;
+  padding: 7% 15%;
+}
+
+#story p {
+  margin: 3% 15%;
+}
+
+/* VISION */
+#vision {
+  background-color: #eae7d9;
+  padding: 7% 15%;
+}
+
+.feature-row {
+  padding: 5% 5% 3%;
+}
+
+.feature-icon {
+  padding-bottom: 10px;
+}
+
+/* BEST SELLERS */
+#best-seller {
+  background-color: #d2c6b2;
+  padding: 7% 20% 3%;
+}
+
+.container-fluid {
+  padding: 5% 15%;
+}
+
+.item-text {
+  padding-top: 10%;
+}
+
+.item {
+  height: 250px;
+  width: 250px;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.item1-img{
+  float: left;
+}
+
+.item2-img{
+  float: right;
+}
+
+.item3-img{
+  float: left;
+}
+
+/* FOOTER */
+#footer {
+  background-color: #6C7351;
+  padding: 7% 15%;
+}
+
+.footer-link {
+  margin: 2% 1%;
+}
+
+.footer-link:hover {
+  color: #442727;
+}
