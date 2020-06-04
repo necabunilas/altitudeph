@@ -3,21 +3,28 @@ body{
   text-align: center;
 }
 
+h1{
+  font-weight: lighter;
+  font-size: 6rem;
+  color: black;
+}
+
 h2{
   font-weight: lighter;
 }
 
 /* HOME */
 #home{
-  background: url("../img/home-wallpaper.jpg");
+  background-size: 2000px 900px;
+  background-image: url("../img/home-wallpaper.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: 56% center;
+  background-position:  center top;
   padding: 3% 3%;
 }
 
 .home-title{
-  padding: 10% 15% 20%;
+  padding: 4% 15% 20%;
 }
 
 /* Navigation Bar */
@@ -33,7 +40,7 @@ h2{
 /* STORY */
 #story {
   background-color: #442727;
-  color: white;
+  color: #8f8f8f;;
   padding: 7% 15%;
 }
 
@@ -58,15 +65,16 @@ h2{
 /* BEST SELLERS */
 #best-seller {
   background-color: #d2c6b2;
-  padding: 7% 20% 3%;
+  padding: 7% 10% 3%;
 }
 
 .container-fluid {
-  padding: 5% 15%;
+  padding: 5% 20%;
 }
 
 .item-text {
   padding-top: 10%;
+  text-align: left;
 }
 
 .item {
@@ -74,6 +82,20 @@ h2{
   width: 250px;
   border-radius: 100%;
   margin: 20px;
+}
+
+/* if mobile device */
+@media (max-width: 850px) {
+
+  .item {
+    display: block;
+    text-align: center;
+  }
+
+  .item-text {
+    text-align: center;
+  }
+
 }
 
 .item1-img{
